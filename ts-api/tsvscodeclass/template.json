@@ -1,0 +1,47 @@
+{
+    "name" : "Typescript API Module",
+    "description" : "New Typescript API Module",
+    "defaultName" : "Module",
+    "sortOrder" : "1",
+    "category" : "API-Typescript",
+    "iconLight" : "Logo.svg",
+    "iconDark" : "Logo.svg",
+    "elements" : [
+    	{
+            "fileName" : "ModuleAPI.ts",
+            "targetName" : "$itemname$API.ts",
+            "replaceParameters" : true,
+            "open" : true
+        },
+        {
+            "fileName" : "ModuleConnector.ts",
+            "targetName" : "$itemname$Connector.ts",
+            "replaceParameters" : true,
+            "open" : false
+        },
+        {
+            "fileName" : "ModuleDataHandler.ts",
+            "targetName" : "$itemname$DataHandler.ts",
+            "replaceParameters" : true,
+            "open" : false
+        },
+        {
+            "fileName" : "ModuleDataProvider.ts",
+            "targetName" : "$itemname$DataProvider.ts",
+            "replaceParameters" : true,
+            "open" : false
+        },
+        {
+            "fileName" : "ModuleInterfaces.ts",
+            "targetName" : "$itemname$Interfaces.ts",
+            "replaceParameters" : true,
+            "open" : false
+        },
+        {
+            "fileName" : "ModuleModels.ts",
+            "targetName" : "$itemname$Models.ts",
+            "replaceParameters" : true,
+            "open" : false
+        }
+    ]
+}
